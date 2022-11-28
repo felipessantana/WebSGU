@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vU79rKUUEvvoebDkmy1tPmkCBgnvIuUPG7UpeDT0tv2qEHQdSWchW4i+z78zal3kBLx89HzYPKEJV/cXrT+yLw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Felipe Santana\\Desktop\\Projetos\\AplicacaoWeb\\AplicacaoWeb\\AplicacaoWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Felipe Santana\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

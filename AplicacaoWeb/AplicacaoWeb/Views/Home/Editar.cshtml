@@ -1,0 +1,70 @@
+﻿@model AplicacaoWeb.Models.UsuarioModel
+
+<form>
+    <div class="form-group">
+        <label for="text">Nome Completo</label>
+        <input type="text" value="@ViewBag.usuario.NomeCompleto" class="form-control" id="NomeCompleto" name="NomeCompleto" placeholder="Nome de Usuario">
+
+    </div>
+    <div class="form-group">
+        <label for="text">CPF</label>
+        <input type="text" onkeydown="javascript: fMasc( this, mCPF );" value="@ViewBag.usuario.CpfUsuario" class="form-control" id="CpfUsuario" name="CpfUsuario" maxlength="14" placeholder="CPF">
+
+    </div>
+    <div class="form-group">
+        <label for="text">Telefone</label>
+        <input onkeypress="mascara(this, telefone)" maxlength="15" placeholder="(__) _____-____" type="text" value="@ViewBag.usuario.TelefoneUsuario" class="form-control" id="TelefoneUsuario" name="TelefoneUsuario" placeholder="Telefone">
+
+    </div>
+    <div class="form-group">
+        <label for="text">E-mail</label>
+        <input type="email" value="@ViewBag.usuario.EmailUsuario" class="form-control" id="EmailUsuario" name="EmailUsuario" placeholder="E-mail">
+
+    </div>
+    <div class="form-group">
+        <label for="text">Data de Criação</label>
+        <input type="datetime" disabled value="@ViewBag.usuario.DataDeCriacao" class="form-control" id="DataDeCriacao" name="DataDeCriacao" >
+
+    </div>
+    <div class="form-group">
+        <label for="text">Status</label>
+        <input type="checkbox" onchange="(this.value = this.checked)" value="@ViewBag.usuario.StatusUsuario" @(ViewBag.usuario.StatusUsuario == 1 ? "checked" : "") class="form-check-input" id="StatusUsuario" nome="StatusUsuario">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+<script>
+    function ValidaCPF() {
+        var RegraValida = document.getElementById("CpfUsuario").value;
+        var cpfValido = /^(([0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2})|([0-9]{11}))$/;
+        if (cpfValido.test(RegraValida) == true) {
+            console.log("CPF Válido");
+        } else {
+            console.log("CPF Inválido");
+        }
+    }
+    function fMasc(objeto, mascara) {
+        obj = objeto
+        masc = mascara
+        setTimeout("fMascEx()", 1)
+    }
+
+    function fMascEx() {
+        obj.value = masc(obj.value)
+    }
+
+    function mCPF(cpf) {
+        cpf = cpf.replace(/\D/g, "")
+        cpf = cpf.replace(/(\d{3})(\d)/, "$1.$2")
+        cpf = cpf.replace(/(\d{3})(\d)/, "$1.$2")
+        cpf = cpf.replace(/(\d{3})(\d{1,2})$/, "$1-$2")
+        return cpf
+    }
+
+    function telefone(v) {
+        v = v.replace(/\D/g, "")                 //Remove tudo o que não é dígito
+        v = v.replace(/^(\d\d)(\d)/g, "($1) $2") //Coloca parênteses em volta dos dois primeiros dígitos
+        v = v.replace(/(\d{4})(\d)/, "$1-$2")    //Coloca hífen entre o quarto e o quinto dígitos
+        return v
+    }
+</script>
