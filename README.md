@@ -68,6 +68,8 @@ Feito com 💙 por Felipe Santana 👋🏽 Entre em contato!
 
 Se possível:
 
-⭐️  Angular CRUD o projeto
+⭐️  Asp.Net Coreo projeto
+⭐️  Entity Framework projeto
+⭐️  Sql Server projeto
 
 🐛 Encontrar e relatar issues
