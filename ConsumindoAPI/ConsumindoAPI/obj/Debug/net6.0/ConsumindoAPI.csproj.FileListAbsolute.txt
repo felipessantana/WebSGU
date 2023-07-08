@@ -1,0 +1,17 @@
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\bin\Debug\net6.0\ConsumindoAPI.exe
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\bin\Debug\net6.0\ConsumindoAPI.deps.json
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\bin\Debug\net6.0\ConsumindoAPI.runtimeconfig.json
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\bin\Debug\net6.0\ConsumindoAPI.dll
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\bin\Debug\net6.0\ConsumindoAPI.pdb
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ConsumindoAPI.csproj.AssemblyReference.cache
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ConsumindoAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ConsumindoAPI.AssemblyInfoInputs.cache
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ConsumindoAPI.AssemblyInfo.cs
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ConsumindoAPI.csproj.CoreCompileInputs.cache
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ConsumindoAPI.dll
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\refint\ConsumindoAPI.dll
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ConsumindoAPI.pdb
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ConsumindoAPI.genruntimeconfig.cache
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ref\ConsumindoAPI.dll
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Felipe Santana\Desktop\SGI\ConsumindoAPI\ConsumindoAPI\obj\Debug\net6.0\ConsumindoAPI.csproj.CopyComplete
